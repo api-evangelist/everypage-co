@@ -1,4 +1,4 @@
-# everypage-co
+# EveryPage
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,155 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-everypage-co is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://everypage.co/
+EveryPage is a web service that lets users share PDF, Word, PowerPoint, or HTML files via secure, trackable links. The platform provides reader analytics showing who opened a document, how far they read, and who returned, without storing any reader IP addresses. Built and run by security veteran Nick Pears, EveryPage emphasizes privacy and simplicity, offering a free tier to start and paid plans for advanced features such as password protection, expiration dates, and integrations with other tools.
+
+**Areas:** PDF · DocumentSharing · ReaderAnalytics · Privacy · SaaS
+
+## EveryPage on APIs.io
+
+Everything profiled for EveryPage is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/everypage-co/](https://apis.io/providers/everypage-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [EveryPage Account API](https://apis.io/apis/everypage-co/everypage-co-account-api/) — The Account API from EveryPage — 2 operation(s) for account.
+- [EveryPage Embedding API](https://apis.io/apis/everypage-co/everypage-co-embedding-api/) — The Embedding API from EveryPage — 1 operation(s) for embedding.
+- [EveryPage Events API](https://apis.io/apis/everypage-co/everypage-co-events-api/) — The Events API from EveryPage — 6 operation(s) for events.
+- [EveryPage Files API](https://apis.io/apis/everypage-co/everypage-co-files-api/) — The Files API from EveryPage — 14 operation(s) for files.
+- [EveryPage OAuth API](https://apis.io/apis/everypage-co/everypage-co-oauth-api/) — The OAuth API from EveryPage — 3 operation(s) for oauth.
+- [EveryPage Variants API](https://apis.io/apis/everypage-co/everypage-co-variants-api/) — The Variants API from EveryPage — 2 operation(s) for variants.
+- [EveryPage Webhooks API](https://apis.io/apis/everypage-co/everypage-co-webhooks-api/) — The Webhooks API from EveryPage — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Everypage Co Agentic Access](https://apis.io/agentic-access/everypage-co/everypage-co-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiIndex](https://apis.io/schemas/everypage-co/everypage-co-api-index/)
+- [CanvaDesignStatus](https://apis.io/schemas/everypage-co/everypage-co-canva-design-status/)
+- [File](https://apis.io/schemas/everypage-co/everypage-co-file/)
+- [FileSettings](https://apis.io/schemas/everypage-co/everypage-co-file-settings/)
+- [ReadershipReport](https://apis.io/schemas/everypage-co/everypage-co-readership-report/)
+- [User](https://apis.io/schemas/everypage-co/everypage-co-user/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Everypage Co Context](https://apis.io/jsonld/everypage-co/everypage-co-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EveryPage API Rules](https://apis.io/rules/everypage-co/everypage-co-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Everypage Co Authentication](https://apis.io/security/everypage-co/everypage-co-authentication/)
+- [Everypage Co Domain Security](https://apis.io/security/everypage-co/everypage-co-domain-security/)
+- [Everypage Co Trust Center](https://apis.io/security/everypage-co/everypage-co-trust-center/)
+- [Everypage Co Vulnerability Disclosure](https://apis.io/security/everypage-co/everypage-co-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Everypage Co Scopes](https://apis.io/scopes/everypage-co/everypage-co-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Everypage Co Plans Pricing](https://apis.io/plans/everypage-co/everypage-co-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Everypage Co Rate Limits](https://apis.io/rate-limits/everypage-co/everypage-co-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://everypage.co/)
+- [Documentation](https://everypage.co/docs)
+- [Getting started](https://everypage.co/docs)
+- [API reference](https://everypage.co/openapi.json)
+- [Pricing](https://everypage.co/pricing)
+- [Sign up](https://everypage.co/signup)
+- [Support](https://everypage.co/contact)
+- [Blog](https://everypage.co/blog)
+- [Security](https://everypage.co/security)
+- [Compliance](https://everypage.co/security)
+- [Terms of service](https://everypage.co/terms)
+- [Privacy policy](https://everypage.co/privacy)
+- [GitHub](https://github.com/EveryPageApp)
+- [Status](https://everypage.co/status)
+
+## API Evangelist rating
+
+**Kin Score 74.4** — exemplar · rubric 0.26.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.5 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 88.9 |
+
+**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 45.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/everypage-co/](https://apis.io/providers/everypage-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EveryPage: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/everypage-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
